@@ -69,8 +69,8 @@ $item->description = "Dispositivo móvil de Tienda e-commerce";
 $item->title = $_POST['title'];
 $item->quantity = 1;
 $item->unit_price = $_POST['price'];
-$item->external_reference = "cristian.budzicz@gmail.com";
-$preference->external_reference = "cristian.budzicz@gmail.com";
+$item->external_reference = "difredespelletti@gmail.com";
+$preference->external_reference = "difredespelletti@gmail.com";
 $preference->items = array($item);
 
   // ...
