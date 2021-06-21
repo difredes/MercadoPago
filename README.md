@@ -1,7 +1,3 @@
-## url interesante para ver
-
-https://abelinux.xyz/tutorial/integraciones-con-mercado-pago/
-
 # mp-ecommerce
 
 Este e-commerce de ejemplo será la base para la integración de MercadoPago con `php`.
