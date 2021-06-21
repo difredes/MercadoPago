@@ -58,7 +58,7 @@ $preference->notification_url ="https://webhook.site/c3962da7-fc08-4311-868d-99f
 
 //REFERIDO A LOS BACK_URL-------------------------------------------
 //invento 3 paginas
-$redirige_url = "https://toasternerd-mp-commerce-php.herokuapp.com/";
+$redirige_url = "https://difredes-mp-commerce-php.herokuapp.com/";
 $preference->back_urls = array(
   "success" => $redirige_url . "aprobado.php",
   "failure" => $redirige_url . "rechazado.php",
@@ -67,7 +67,7 @@ $preference->back_urls = array(
 $preference->auto_return = "approved";
 
 //referencia externa
-$preference -> external_reference = "jpr230697@gmail.com";
+$preference -> external_reference = "difredes@gmail.com";
 
 //REFERIDO AL ITEM-----------------------------------------------------
 $item = new MercadoPago\Item();
